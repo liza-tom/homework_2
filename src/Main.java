@@ -1,6 +1,6 @@
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         //task 1
         byte a = 1;
@@ -15,7 +15,6 @@ public class Main {
         System.out.println("Значение переменной d с типом long равно " + d);
         System.out.println("Значение переменной e с типом float равно " + e);
         System.out.println("Значение переменной f с типом double равно " + f);
-
 
         //task 2
         float a2 = 27.12f;
@@ -60,7 +59,7 @@ public class Main {
         int iceCream = 100;
         int eggs = 70;
         int gramm = 5 * banana + 2 * milk + 2 * iceCream + 4 * eggs;
-        float killo = ((float) gramm / 1000);
+        float killo = (float) gramm / 1000;
         System.out.println(gramm);
         System.out.println(killo);
 
@@ -95,7 +94,6 @@ public class Main {
         System.out.println("Маша теперь получает " + mashaAfter + " рублей. Годовой доход вырос на " + diffMasha + " рублей");
         System.out.println("Денис теперь получает " + denisAfter + " рублей. Годовой доход вырос на " + diffDenis + " рублей");
         System.out.println("Кристина теперь получает " + kristinaAfter + " рублей. Годовой доход вырос на " + diffKristina + " рублей");
-
     }
 
 }
