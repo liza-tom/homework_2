@@ -37,7 +37,7 @@ public class Main {
         //task 4
         byte bottles = 16;
         short twentyMin = (short) (bottles * 10);
-        short day = (short)(bottles * 30 * 24);
+        short day = (short) (bottles * 30 * 24);
         int threeDay = day * 3;
         int month = day * 30;
         System.out.println("За 20 минут машина произвела " + twentyMin + " штук бутылок");
@@ -49,29 +49,29 @@ public class Main {
         byte all = 120;
         byte whitePerClass = 2;
         byte brownPerClass = 4;
-        byte amountOfClasses = (byte)(all / (2 + 4));
-        byte white = (byte)(amountOfClasses * whitePerClass);
-        byte brown = (byte)(amountOfClasses * brownPerClass);
+        byte amountOfClasses = (byte) (all / (2 + 4));
+        byte white = (byte) (amountOfClasses * whitePerClass);
+        byte brown = (byte) (amountOfClasses * brownPerClass);
         System.out.println("В школе, где " + amountOfClasses + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски");
 
         //task 6
-        byte banana = 80;
-        byte milk = 105;
-        byte iceCream = 100;
-        byte eggs = 70;
-        short gramm = (short)(banana + 2 * milk + 2 * iceCream + 4 * eggs);
-        float killo = ((float)gramm / 1000);
+        int banana = 80;
+        int milk = 105;
+        int iceCream = 100;
+        int eggs = 70;
+        int gramm = 5 * banana + 2 * milk + 2 * iceCream + 4 * eggs;
+        float killo = ((float) gramm / 1000);
         System.out.println(gramm);
         System.out.println(killo);
 
         //task 7
         byte weight = 7;
-        short weightGramm = (short)(weight * 1000);
+        short weightGramm = (short) (weight * 1000);
         short min = 250;
         short max = 500;
-        short minDays = (short)(weightGramm / min);
-        short maxDays = (short)(weightGramm / max);
-        float average = (float)(minDays + maxDays) / 2;
+        short minDays = (short) (weightGramm / min);
+        short maxDays = (short) (weightGramm / max);
+        float average = (float) (minDays + maxDays) / 2;
         System.out.println(minDays);
         System.out.println(maxDays);
         System.out.println(average);
@@ -80,9 +80,9 @@ public class Main {
         int mashaBefore = 67760;
         int denisBefore = 83690;
         int kristinaBefore = 76230;
-        float mashaAfter = mashaBefore + (float)mashaBefore / 100 * 10;
-        float denisAfter = denisBefore + (float)denisBefore / 100 * 10;
-        float kristinaAfter = kristinaBefore + (float)kristinaBefore / 100 * 10;
+        float mashaAfter = mashaBefore + (float) mashaBefore / 100 * 10;
+        float denisAfter = denisBefore + (float) denisBefore / 100 * 10;
+        float kristinaAfter = kristinaBefore + (float) kristinaBefore / 100 * 10;
         float yearMashaBefore = mashaBefore * 12;
         float yearDenisBefore = denisBefore * 12;
         float yearKristinaBefore = kristinaBefore * 12;
